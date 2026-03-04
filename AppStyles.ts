@@ -1,32 +1,24 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    container: {
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: 5,
-        display: "flex",
-    },
-    card: {
-        borderWidth: 1,
-        borderColor: "black",
-        borderRadius: 8,
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        padding: 8,
-        width: 325,
-        gap: 8,
-    },
-    avatar: {
-        width: 75,
-        height: 75,
-        borderRadius: 999,
-    },
-    boldText: {
-        fontWeight: "bold",
-    },
+  container: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: "#f5f5f5",
+  },
+  card: {
+    marginBottom: 10,
+    borderRadius: 8,
+  },
+  cardContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    padding: 10,
+  },
+  textContainer: {
+    marginLeft: 10,
+    justifyContent: "center",
+  },
 });
 
 export default styles;
